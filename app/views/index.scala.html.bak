@@ -1,0 +1,14 @@
+@(message: String)
+
+@main("Welcome to Play") {
+
+    <h1>@message</h1>
+
+}
+
+
+treeA match {
+  case 1 => println("Can be reduced to ")
+  case 2 => println("Can be reduced to ")
+  case _ => println(" cannot be reduced")
+}
